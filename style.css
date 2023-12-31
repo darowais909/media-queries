@@ -1,17 +1,17 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 img{
     width:100%;
-    height:50%;
     border-radius: 10px;
 }
 #main{
     width:100vw;
     display:grid;
     grid-template-columns:repeat(5,1fr);
-    gap:10px;
+    gap:5px;
     border-radius: 5px;
 }
 @media screen and (max-width:1500px){
@@ -25,7 +25,6 @@ img{
 @media screen and (max-width:1200px){
     #main{
         grid-template-columns:repeat(3,1fr);
-        border-radius: 5px;
     }
     img{
         border-radius: 10px;
@@ -34,7 +33,6 @@ img{
 @media screen and (max-width:900px){
     #main{
         grid-template-columns:repeat(2,1fr);
-        border-radius: 5px;
     }
     img{
         border-radius: 10px;
@@ -43,7 +41,6 @@ img{
 @media screen and (max-width:600px){
     #main{
         grid-template-columns:repeat(1,1fr);
-        border-radius: 5px;
     }
     img{
         border-radius: 10px;
