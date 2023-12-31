@@ -5,6 +5,7 @@
 img{
     width:100%;
     height:50%;
+    border-radius: 10px;
 }
 #main{
     width:100vw;
@@ -16,7 +17,9 @@ img{
 @media screen and (max-width:1500px){
     #main{
         grid-template-columns:repeat(4,1fr);
-        border-radius: 5px;
+    }
+    img{
+        border-radius: 10px;
     }
 }
 @media screen and (max-width:1200px){
@@ -24,16 +27,25 @@ img{
         grid-template-columns:repeat(3,1fr);
         border-radius: 5px;
     }
+    img{
+        border-radius: 10px;
+    }
 }
 @media screen and (max-width:900px){
     #main{
         grid-template-columns:repeat(2,1fr);
         border-radius: 5px;
     }
+    img{
+        border-radius: 10px;
+    }
 }
 @media screen and (max-width:600px){
     #main{
         grid-template-columns:repeat(1,1fr);
         border-radius: 5px;
+    }
+    img{
+        border-radius: 10px;
     }
 }
